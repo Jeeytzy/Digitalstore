@@ -1,0 +1,41 @@
+{
+  "name": "telegram-bot-produk-digital-secure",
+  "version": "3.0.0",
+  "description": "Bot Telegram Produk Digital - Production Ready dengan Security Tinggi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "prod": "NODE_ENV=production node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "digital-products",
+    "qris",
+    "payment-gateway",
+    "secure",
+    "encrypted",
+    "production-ready"
+  ],
+  "author": "JeeyHosting",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.2",
+    "qrcode": "^1.5.3",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.3.1",
+    "file-type": "^16.5.4",
+    "image-size": "^1.0.2",
+    "proper-lockfile": "^4.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeeyhosting/telegram-bot-produk-digital"
+  }
+}
